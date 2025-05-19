@@ -1,0 +1,55 @@
+[
+    {
+      "id": "prompt1",
+      "label": "Code Explanation",
+      "text": "For the code that will be provided below, you must give a detailed explanation of its purpose and functionality, as well as the main points that compose it. Use simple and understandable vocabulary without complex terms, unless absolutely necessary. Requirements: In your answer, each piece of code must appear alongside its explanation. Separate the code according to its structure, or if it is a complex line, present it individually. Pieces of code that perform the same function should be presented only once."
+    },
+    {
+      "id": "prompt2",
+      "label": "Time Complexity",
+      "text": "You will analyze the code provided in terms of time complexity using Big O notation. You will analyze each piece of code separately and then draw a conclusion about the overall time complexity of the entire code by combining those results. Requirements: Present all operations in detail for each piece of code and justify every answer."
+    },
+    {
+      "id": "prompt3",
+      "label": "Performance Enhancing",
+      "text": "For the code that will be provided, you need to propose changes in order to improve its performance. In other words, find points where the code can become more efficient and faster, as well as require fewer memory resources. Along with the improvements, explain how the code will enhance performance. The modified code must retain its functionality, and the result must remain the same. Requirements: Your answer will include the entire modified code, along with a brief analysis of each changed part, including an explanation and the benefit we gain by applying it."
+    },
+
+    {
+        "id":"prompt4",
+        "label":"Bugs and errors detection",
+        "text":"You will review the code and identify potential bottlenecks and errors that may occur during execution, as well as the types of errors one might encounter when attempting to run the code. The modified code must be correct, efficient, and preserve its original functionality.Requirements: In your answer, you will fix the code so that these errors are eliminated. You will also present the errors you identified and explain how your changes corrected the original code."
+    },
+    {
+        "id":"prompt5",
+        "label":"Function decomposition",
+        "text":"For the function that will be provided, split it into smaller parts so that smaller, more manageable functions can be created, which can be used in other parts of the code. Identify the distinct operations that the function performs and divide it accordingly.Requirements: In your answer, present each function separately and provide brief explanations of the operations they perform."
+    },
+    {
+        "id":"prompt6",
+        "label":"Function generation for repetitive block",
+        "text":"The piece of code that will be provided appears at the beginning of many files. I want you to create a function that contains this code, so that the next time I need it, I can simply call the function without having to repeat the entire block of code.Requirements: Your answer should include the complete new function, along with a brief explanation of the function’s purpose and how I can call it in the future."
+    },
+    {
+        "id":"prompt7",
+        "label":"Variable name conversion",
+        "text":"In the piece of code that will be provided, I want you to rename the variables to names that match the functionality they serve. For example, if a variable stores the sum of some numbers, then that variable should be called “sum”. Requirements: Provide the complete code with the updated variable names, and then give me a list showing each old name, its new name, and an explanation for why you chose that new name."
+    },
+    {
+        "id":"prompt8",
+        "label":"Test cases",
+        "text":"For the piece of code that will be provided, I want you to create the appropriate test cases so that every possible execution scenario of the code is checked. Among these, you must include valid and invalid boundary values, as well as normal values. Requirements: Your answer should be divided into four sections according to the type of input, i.e., normal values, valid boundary values, invalid boundary values, and invalid values. In each section, there should be a table showing the value to be tested, the actual output, and a brief comment."
+    },
+    {
+        "id":"prompt9",
+        "label":"Error messages",
+        "text":"For the code provided below, I want you to add checks in case an error occurs. You will perform the necessary validations and display the appropriate messages so that the user knows if, and at which point, something went wrong in the code. Requirements: Your answer should include the complete code with the changes, along with brief explanations for each new addition you made."
+    },
+    {
+        "id":"prompt10",
+        "label":"Appearance and maintenance improvement",
+        "text":"I want you to improve the following code so that it’s easier for someone else to read. Also, enhance the code so that any potential future maintenance becomes simpler. Some example techniques include renaming variables, adding comments, and generally producing cleaner and more readable code.Requirements: Your answer should include the complete new code and a list explaining all the changes you made."
+    }    
+
+  ]
+  

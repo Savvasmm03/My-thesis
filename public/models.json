@@ -1,0 +1,45 @@
+[
+    {
+      "id": "gpt-3.5",
+      "name": "ChatGPT 3.5",
+      "logo": "/logos/chatgpt.svg",
+      "provider": "openai",
+      "modelId": "openai/gpt-3.5-turbo"
+    },
+    {
+      "id": "gpt-4o",
+      "name": "GPT-4o-mini",
+      "logo": "/logos/chatgpt.svg",
+      "provider": "openai",
+      "modelId": "openai/gpt-4o-mini"
+    },
+    {
+      "id": "gemini-flash-2",
+      "name": "Gemini Flash 2.0",
+      "logo": "/logos/gemini.svg",
+      "provider": "google",
+      "modelId": "google/gemini-2.0-flash-001"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek V3 0324",
+      "logo": "/logos/deepseek.svg",
+      "provider": "deepseek",
+      "modelId": "deepseek/deepseek-chat-v3-0324:free"
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen: QwQ 32B",
+      "logo": "/logos/qwen.svg",
+      "provider": "qwen",
+      "modelId": "qwen/qwq-32b"
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral Small 3.1 24B",
+      "logo": "/logos/mistralai.svg",
+      "provider": "mistralai",
+      "modelId": "mistralai/mistral-small-3.1-24b-instruct:free"
+    }
+  ]
+  
