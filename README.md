@@ -4,3 +4,4 @@
 
 The objective of this project is the study and evaluation of prompt engineering techniques, as well as the development of an innovative application that leverages these techniques for code analysis. Through the application, the user can input the code segment intended for analysis, select a Large Language Model from the available options, and finally choose the prompt that will be used by the selected model to analyze the code. The prompts have been designed in such a way as to optimize the quality of the responses and ensure they are understandable even to individuals with limited experience in programming or interaction with artificial intelligence agents.
 During the development of the application, the most modern tools were used with the aim of creating a simple and user-friendly interface that is accessible to everyone.
+The file IMCL_2025_Abstract_Official.pdf contains the abstract that was sent to the IMCL Conference of 2025.
